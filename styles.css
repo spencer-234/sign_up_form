@@ -3,12 +3,14 @@ body, html {
     padding: 0;
 }
 
+/* change theme of website */
 :root {
     --light-color: white;
     --dark-color: #121212;
     --dark-logo: rgba(18, 18, 18, 0.5);
 }
 
+/* styles for container holding everything */
 .container {
     display: flex;
     height: 100vh;
@@ -18,13 +20,15 @@ body, html {
     padding: 0;
 }
 
+/* styles for left side with image */
 .logo_img {
     display: flex;
     flex-direction: column;
     height: 100vh;
     width: 30vw;
     background-image: url(./img/city_dark.jpg);
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .logo_card {
@@ -52,9 +56,22 @@ body, html {
     color: var(--light-color);
 }
 
+/* styles for right side with sign up form */
 .info_cards {
     display: flex;
     flex-direction: column;
     height: 100vh;
     width: 70vw;
+}
+
+.info_text, 
+.info_login {
+    height: 30vh;
+    width: auto;
+}
+
+.info_form {
+    height: 40vh;
+    width: auto;
+    background-color: darkblue;
 }
