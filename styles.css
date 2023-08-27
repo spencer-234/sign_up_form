@@ -8,6 +8,8 @@ body, html {
     --light-color: white;
     --dark-color: #121212;
     --dark-logo: rgba(18, 18, 18, 0.5);
+    --dark-form: #3a3a3a;
+    color: white;
 }
 
 /* styles for container holding everything */
@@ -83,9 +85,16 @@ body, html {
 }
 
 .info_form {
+    display: flex;
     height: 40vh;
     width: auto;
-    background-color: darkblue;
+    background-color: var(--dark-form);
+    justify-content: center;
+    align-items: center;
+}
+
+.sign_up_form {
+    width: 80%;
 }
 
 .info_text {
