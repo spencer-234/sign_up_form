@@ -12,6 +12,7 @@ body, html {
     --bg-image: url("./img/city_dark.jpg");
     --theme-border: white;
     --a-color: white;
+    transition: all 1s ease;
 }
 
 :root.light {
@@ -22,6 +23,7 @@ body, html {
     --bg-image: url("./img/city_light.jpg");
     --theme-border: black;
     --a-color: black;
+    transition: all 1s ease;
 }
 
 /* styles for container holding everything */
