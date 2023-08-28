@@ -46,12 +46,13 @@ body, html {
 .title {
     font-size: 3vw;
     color: var(--light-color);
+    font-style: italic;
 }
 
-.title > img {
+.logo_card > img {
     display: inline;
-    height: 8vh;
-    width: 4vw;
+    height: 4em;
+    width: 4em;
 }
 
 .citation {
