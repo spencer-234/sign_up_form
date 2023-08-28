@@ -38,6 +38,7 @@ body, html {
     border: 2px solid var(--theme-border);
     background-color: var(--bg-color);
     border-radius: 10px;
+    margin: 10px 5px 0 0;
 }
 
 .select_theme > button {
@@ -107,9 +108,8 @@ body, html {
 
 .info_text > p {
     margin-top: 40px;
-    text-align: center;
     width: 50vw;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 .info_form {
