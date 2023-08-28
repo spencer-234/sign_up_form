@@ -34,19 +34,19 @@
                 <h1>Let's get started</h1>
                 <form action="./index.html" method="post" class="sign_up_form">
                     <div>
-                        <label for="first_name">First Name:</label>
-                        <input type="text" id="first_name" name="first_name" required>
-                        <label for="last_name">Last Name</label>
-                        <input type="text" id="last_name" name="last_name" required>
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
+                        <label for="first_name">*First Name:</label>
+                        <input type="text" id="first_name" name="first_name" minlength="1" title="First name must be at least 1 character long" required>
+                        <label for="email">*Email:</label>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com" minlength="2" title="Email must be at least 1 character long and contain the '@' symbol." required>
+                        <label for="password">*Password:</label>
+                        <input type="password" id="password" name="password" required>
                     </div>
                     <div class="input_right">
-                        <label for="phone_number">Phone Number:</label>
+                        <label for="last_name">*Last Name:</label>
+                        <input type="text" id="last_name" name="last_name" minlength="1" title="Last name must be at least 1 character long" required>
+                        <label for="phone_number">*Phone Number:</label>
                         <input type="tel" id="phone_number" name="phone_number" required>
-                        <label for="password">Password:</label>
-                        <input type="password" id="password" name="password" required>
-                        <label for="confirmation">Confirm Password:</label>
+                        <label for="confirmation">*Confirm Password:</label>
                         <input type="password" id="confirmation" name="confirmation" required>
                     </div>
                 </form>
