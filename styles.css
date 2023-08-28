@@ -48,6 +48,12 @@ body, html {
     color: var(--light-color);
 }
 
+.title > img {
+    display: inline;
+    height: 8vh;
+    width: 4vw;
+}
+
 .citation {
     margin-top: auto;
     align-self: center;
