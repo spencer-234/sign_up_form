@@ -32,7 +32,7 @@
             </div>
             <div class="info_form">
                 <h1>Let's get started</h1>
-                <form action="./index.html" method="post" class="sign_up_form">
+                <form action="./index.html" method="post" class="sign_up_form" id="signup">
                     <div>
                         <label for="first_name">*First Name:</label>
                         <input type="text" id="first_name" name="first_name" minlength="1" title="First name must be at least 1 character long." required>
@@ -52,7 +52,7 @@
                 </form>
             </div>
             <div class="info_login">
-                <button type="submit">Create Account</button>
+                <button form="signup" type="submit">Create Account</button>
                 <p>Already have an account? <a href="#">Log in</a></p>
                 <p>Forgot password? <a href="https://neal.fun/password-game/" rel="noopener noreferrer" target="_blank">Reset</a></p>
             </div>
