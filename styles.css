@@ -104,6 +104,8 @@ label {
 
 input {
     margin-bottom: 10%;
+    width: 12vw;
+    height: 10%;
 }
 
 .info_text {
