@@ -1,5 +1,6 @@
 const rootElement = document.documentElement;
 const logoImg = document.querySelector(".logo_img");
+const citation = document.querySelector(".citation");
 
 rootElement.classList.add("dark");
 

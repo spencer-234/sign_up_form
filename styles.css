@@ -9,6 +9,7 @@ body, html {
     --logo: rgba(18, 18, 18, 0.5);
     --form: #3a3a3a;
     color: white;
+    --bg-image: url("./img/city_dark.jpg")
 }
 
 :root.light {
@@ -16,6 +17,7 @@ body, html {
     --bg-color: rgb(243, 243, 243);
     --logo: rgba(243, 243, 243, 0.5);
     --form: rgb(255, 255, 255);
+    --bg-image: url("./img/city_light.jpg")
 }
 
 /* styles for container holding everything */
@@ -47,7 +49,7 @@ body, html {
     flex-direction: column;
     height: 100vh;
     width: 40vw;
-    background-image: url("./img/city_dark.jpg");
+    background-image: var(--bg-image);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -113,6 +115,7 @@ body, html {
     width: auto;
     background-color: var(--form);
     padding-left: 20px;
+    box-shadow: 0 5px 5px gray;
 }
 
 .sign_up_form {
