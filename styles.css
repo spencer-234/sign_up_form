@@ -99,15 +99,24 @@ body, html {
 
 label {
     display: block;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 input {
     margin-bottom: 10%;
-    width: 12vw;
+    width: 15vw;
     height: 10%;
 }
 
-.info_text {
+.input_right {
+    margin-left: 10%;
+}
 
+.info_login {
+    padding: 25px 0px 0px 20px;
+}
+
+button {
+    font-size: 2em;
+    border-radius: 10px;
 }
