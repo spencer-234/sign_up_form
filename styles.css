@@ -16,7 +16,6 @@ body, html {
     --bg-color: rgb(243, 243, 243);
     --logo: rgba(243, 243, 243, 0.5);
     --form: rgb(255, 255, 255);
-
 }
 
 /* styles for container holding everything */
@@ -48,7 +47,7 @@ body, html {
     flex-direction: column;
     height: 100vh;
     width: 40vw;
-    background-image: url(./img/city_dark.jpg);
+    background-image: url("./img/city_dark.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
