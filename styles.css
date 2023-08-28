@@ -85,16 +85,25 @@ body, html {
 }
 
 .info_form {
-    display: flex;
     height: 40vh;
     width: auto;
     background-color: var(--dark-form);
-    justify-content: center;
-    align-items: center;
+    padding-left: 20px;
 }
 
 .sign_up_form {
-    width: 80%;
+    display: flex;
+    width: 50%;
+    justify-content: space-between
+}
+
+label {
+    display: block;
+    font-size: 15px;
+}
+
+input {
+    margin-bottom: 10%;
 }
 
 .info_text {
