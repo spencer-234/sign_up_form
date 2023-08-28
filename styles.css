@@ -11,6 +11,7 @@ body, html {
     color: white;
     --bg-image: url("./img/city_dark.jpg");
     --theme-border: white;
+    --a-color: white;
 }
 
 :root.light {
@@ -20,6 +21,7 @@ body, html {
     --form: rgb(255, 255, 255);
     --bg-image: url("./img/city_light.jpg");
     --theme-border: black;
+    --a-color: black;
 }
 
 /* styles for container holding everything */
@@ -78,11 +80,20 @@ body, html {
     width: 4em;
 }
 
-.citation {
+.citation1,
+.citation2 {
     margin-top: auto;
     align-self: center;
 }
 
+.citation1 > a,
+.citation2 > a {
+    color: var(--a-color);
+}
+
+.citation2 {
+    display: none;
+}
 
 /* styles for right side with sign up form */
 .info_cards {
@@ -141,6 +152,7 @@ input {
 input:focus {
     outline: 0;
     border: 2px solid blue;
+    box-shadow: 2px 2px 2px rgb(61, 57, 57);
 }
 
 .input_right {
