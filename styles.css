@@ -160,7 +160,7 @@ input:valid {
     border: 2px solid greenyellow;
 }
 
-input.required:invalid {
+input:not(:placeholder-shown):invalid {
     outline: 0;
     border: 2px solid red;
 }
